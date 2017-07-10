@@ -1,0 +1,30 @@
+{
+  "name": "watch-rsync",
+  "version": "1.0.0",
+  "description": "watch change of files and run rsync",
+  "main": "index.js",
+  "bin" : {
+    "watch-rsync" : "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarkeev/watch-rsync.git"
+  },
+  "keywords": [
+    "watch",
+    "rsync"
+  ],
+  "author": "denis.yarkeev@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yarkeev/watch-rsync/issues"
+  },
+  "homepage": "https://github.com/yarkeev/watch-rsync#readme",
+  "dependencies": {
+    "chokidar": "^1.7.0",
+    "commander": "^2.11.0"
+  }
+}
